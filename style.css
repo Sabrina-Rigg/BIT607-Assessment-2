@@ -1,0 +1,31 @@
+/* Reset and Base Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #fff8f0;
+  color: #333;
+  padding: 0 1rem;
+}
+
+/* Header and Navigation */
+header {
+  background-color: #f08080;
+  padding: 1rem 0;
+  margin-bottom: 1rem;
+}
+
+nav h1 {
+  text-align: center;
+  color: white;
+  margin-bottom: 0.5rem;
+}
+
+nav ul {
+  list-style: none;
+}
