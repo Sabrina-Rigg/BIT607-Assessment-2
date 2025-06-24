@@ -29,3 +29,31 @@ nav h1 {
 nav ul {
   list-style: none;
 }
+
+.gallery-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: space-between;
+}
+
+.gallery-grid img {
+  width: 32%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: contain;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .gallery-grid img {
+    width: 48%;
+  }
+}
+
+@media (max-width: 500px) {
+  .gallery-grid img {
+    width: 100%;
+  }
+}
